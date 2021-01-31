@@ -10,3 +10,17 @@
 // console.log(getLength)
 
 // Method 2
+
+// creating 4 digit random number
+const generateRandomNumber = document.getElementById("generateRandomNumber");
+function createRandomNumber() {
+  const fourDigitRandomNumber = Math.floor(1000 + Math.random() * 9000);
+  //   console.log(fourDigitRandomNumber);
+  return fourDigitRandomNumber;
+}
+
+generateRandomNumber.addEventListener("click", function () {
+  document.getElementById(
+    "randomNumberInput"
+  ).value = `${createRandomNumber()}`;
+});
