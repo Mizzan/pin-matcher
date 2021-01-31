@@ -95,6 +95,7 @@ input[type="text"]:focus {
   margin-top: 20px;
   border-radius: 15px;
   padding: 5px 20px;
+  display: none;
 }
 .notify-section {
   width: 35%;
@@ -106,7 +107,7 @@ input[type="text"]:focus {
 }
 
 /* alert style */
-
+/* 
 #overlay {
   position: fixed;
   display: none;
@@ -128,7 +129,7 @@ input[type="text"]:focus {
   font-size: 1.05rem;
   padding: 40px;
   z-index: 3; */
-  display: none;
+/* display: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -136,8 +137,8 @@ input[type="text"]:focus {
   color: white;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
+} */
+/* 
 #btn-close-two,
 #btn-close-one {
   display: block;
@@ -147,4 +148,4 @@ input[type="text"]:focus {
   width: 100px;
   margin-top: 30px;
   border-radius: 10px;
-}
+} */
